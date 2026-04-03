@@ -25,8 +25,14 @@ PlacementPrep is a full-stack placement preparation platform that helps students
 <td align="center"><b>🏠 Home Page</b></td>
 </tr>
 <tr>
-<td><img src="screenshots/login.png" width="100%"/></td>
-<td><img src="screenshots/home.png" width="100%"/></td>
+<td>
+<img src="screenshots/login.png" width="100%"/><br/>
+User authentication interface with secure login, signup navigation, and admin access option.
+</td>
+<td>
+<img src="screenshots/home.png" width="100%"/><br/>
+Landing page displaying platform overview with STUDY CHATBOT, announcements by Admin, navigation menu, and quick access to practice and mock tests.
+</td>
 </tr>
 
 <tr>
@@ -34,16 +40,25 @@ PlacementPrep is a full-stack placement preparation platform that helps students
 <td align="center"><b>📝 Practice</b></td>
 </tr>
 <tr>
-<td><img src="screenshots/dashboard.png" width="100%"/></td>
-<td><img src="screenshots/practice.png" width="100%"/></td>
+<td>
+<img src="screenshots/dashboard.png" width="100%"/><br/>
+User dashboard showing progress tracking, test performance over time graph and also chart, and quick navigation to modules.
+</td>
+<td>
+<img src="screenshots/practice.png" width="100%"/><br/>
+Practice section for solving aptitude and technical MCQs over 20 subjects with instant feedback.
+</td>
 </tr>
 
 <tr>
 <td align="center"><b>🔐 Admin Page</b></td>
-<td align="center"><b></b></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td><img src="screenshots/admin.png" width="100%"/></td>
+<td>
+<img src="screenshots/admin.png" width="100%"/><br/>
+Admin panel for managing questions, users, and mock test configurations.
+</td>
 <td></td>
 </tr>
 </table>
