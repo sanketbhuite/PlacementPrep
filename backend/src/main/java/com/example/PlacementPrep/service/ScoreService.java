@@ -16,10 +16,7 @@ public class ScoreService {
     @Autowired
     private ScoreRepository scoreRepository;
 
-    /**
-     * Save a score for a user.
-     * rawScore is expected as 0–100 (percentage from frontend).
-     */
+
     public Score saveScore(Long userId, Double rawScore, String testType) {
         int scoreValue = rawScore == null ? 0 : (int) Math.round(rawScore);
 
@@ -32,24 +29,14 @@ public class ScoreService {
         return scoreRepository.save(score);
     }
 
-    /**
-     * Get all scores for a user, ordered oldest → newest.
-     */
     public List<Score> getScoresByUser(Long userId) {
         return scoreRepository.findByUserIdOrderByCreatedAtAsc(userId);
     }
 
-    /**
-     * Get the latest score for a given user + test type.
-     * We avoid "Top" keywords to not trigger Oracle FETCH FIRST.
-     */
     public Score getLatestScoreForUserAndTest(Long userId, String testType) {
         List<Score> list = scoreRepository.findByUserIdAndTestTypeOrderByCreatedAtDesc(userId, testType);
         return list.isEmpty() ? null : list.get(0);
     }
-// ===============================
-// DASHBOARD ANALYTICS SUMMARY
-// ===============================
 public Map<String, Object> getUserScoreSummary(Long userId) {
     List<Score> scores = scoreRepository.findByUserIdOrderByCreatedAtAsc(userId);
 
