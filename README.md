@@ -146,7 +146,7 @@ http://localhost:8080
 
 ## 👨‍💻 Author
 
-*Sanket Bhuite
+Sanket Bhuite
 * GitHub: [sanketbhuite](https://github.com/sanketbhuite/)
 * Portfolio: [Myself.Sanket](https://myself-sanket.netlify.app/)
 * LinkedIn: [sanketbhuite](https://www.linkedin.com/in/sanketbhuite/)
