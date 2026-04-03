@@ -19,20 +19,34 @@ PlacementPrep is a full-stack placement preparation platform that helps students
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
-![Login](screenshots/login.png)
+<table>
+<tr>
+<td align="center"><b>🔐 Login Page</b></td>
+<td align="center"><b>🏠 Home Page</b></td>
+</tr>
+<tr>
+<td><img src="screenshots/login.png" width="100%"/></td>
+<td><img src="screenshots/home.png" width="100%"/></td>
+</tr>
 
-### 🏠 Home Page
-![Home](screenshots/home.png)
+<tr>
+<td align="center"><b>📊 Dashboard</b></td>
+<td align="center"><b>📝 Practice</b></td>
+</tr>
+<tr>
+<td><img src="screenshots/dashboard.png" width="100%"/></td>
+<td><img src="screenshots/practice.png" width="100%"/></td>
+</tr>
 
-### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### 📝 Practice
-![Practice](screenshots/practice.png)
-
-### 🔐 Admin Page
-![Admin](screenshots/admin.png)
+<tr>
+<td align="center"><b>🔐 Admin Page</b></td>
+<td align="center"><b></b></td>
+</tr>
+<tr>
+<td><img src="screenshots/admin.png" width="100%"/></td>
+<td></td>
+</tr>
+</table>
 
 
 ## 🛠️ Tech Stack
