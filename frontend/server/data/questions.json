@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "options": [
+      "Library",
+      "Framework",
+      "Language",
+      "Tool"
+    ],
+    "answer": "Library"
+  },
+  {
+    "id": 2,
+    "question": "Which hook manages state?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useMemo"
+    ],
+    "answer": "useState"
+  },
+  {
+    "id": 1762614125006,
+    "question": "qwert ",
+    "options": [
+      "q",
+      "w",
+      "e",
+      "r"
+    ],
+    "answer": "q"
+  }
+]

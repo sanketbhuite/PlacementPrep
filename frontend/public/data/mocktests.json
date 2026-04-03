@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "title": "Mock Test 1",
+    "duration": 15,
+    "questions": [1, 2]
+  }
+]

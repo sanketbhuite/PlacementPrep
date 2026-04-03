@@ -1,0 +1,77 @@
+/* ============================= */
+/* 🌰 PlacementPrep Brown Theme */
+/* ============================= */
+
+:root {
+  --brown-dark: #4b2e2b;
+  --brown-main: #6f4e37;
+  --brown-light: #a07855;
+
+  --cream: #f7efe5;
+  --beige: #eadbc8;
+
+  --gold: #d4a373;
+
+  --card-bg: #fff8f07a;
+  --shadow-soft: 0 10px 25px rgba(0,0,0,0.08);
+  --radius: 16px;
+}
+
+/* Body */
+body {
+  background-color: var(--cream);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: var(--brown-dark);
+  font-weight: 700;
+}
+
+/* Cards */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(
+    to right,
+    var(--brown-main),
+    var(--brown-light)
+  );
+  border: none;
+  color: var(--cream);
+  border-radius: 12px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background: var(--brown-dark);
+}
+
+.btn-outline-primary {
+  color: var(--brown-main);
+  border: 2px solid var(--brown-main);
+  border-radius: 12px;
+}
+
+.btn-outline-primary:hover {
+  background: var(--brown-main);
+  color: var(--cream);
+}
+
+/* Inputs */
+input, select {
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #d6c4b2;
+  background: #fffdf9;
+}

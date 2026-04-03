@@ -1,0 +1,29 @@
+/* App.css – clean & minimal */
+:root {
+  --bs-primary: #6f4e37;        /* coffee brown */
+  --bs-secondary: #a07855;      /* caramel */
+  --bs-light: #f7efe5;          /* cream */
+  --bs-dark: #4b2e2b;   
+   --bs-primary-rgb: 111, 78, 55;        /* dark coffee */
+    --bs-navbar-active-color: #6f4e37;     /* coffee brown */
+  --bs-navbar-hover-color: #4b2e2b;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  background-color: #6f4e37 !important;
+  border-color: #6f4e37 !important;
+  color: #f7efe5 !important;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.card {
+  padding: 1.5rem;
+}

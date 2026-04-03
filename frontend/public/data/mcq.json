@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is not a programming language?",
+    "options": ["Python", "HTML", "C++", "Java"],
+    "answer": "HTML"
+  },
+  {
+    "id": 2,
+    "question": "Time complexity of binary search is?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)"
+  }
+]

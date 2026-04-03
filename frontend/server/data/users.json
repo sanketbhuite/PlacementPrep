@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "1234",
+    "scores": [
+      80,
+      90
+    ]
+  },
+  {
+    "id": 1762526277455,
+    "name": "Pratik Salunkhe",
+    "email": "work.sanketbhuite@outlook.com",
+    "password": "ssaa11",
+    "scores": [
+      67,
+      67,
+      0,
+      100,
+      0,
+      33,
+      33,
+      0,
+      100,
+      100,
+      67,
+      67,
+      100,
+      67,
+      67,
+      0,
+      67,
+      33
+    ]
+  },
+  {
+    "id": 1762614023213,
+    "name": "Vikrant Jadhav",
+    "email": "vikki@gmail.com",
+    "password": "aaqq11",
+    "scores": [
+      100,
+      33
+    ]
+  }
+]

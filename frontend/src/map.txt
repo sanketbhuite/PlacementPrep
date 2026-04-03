@@ -1,0 +1,33 @@
+placement-prep/
+├── public/
+│   ├── data/
+│   │   ├── users.json
+│   │   ├── mcq.json
+│   │   └── mocktests.json
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── QuizCard.jsx
+│   │   ├── ResultCard.jsx
+│   │   └── AdminPanel.jsx
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   ├── Practice.jsx
+│   │   ├── MockTest.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── Admin.jsx
+│   ├── utils/
+│   │   ├── storage.js
+│   │   └── helpers.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
